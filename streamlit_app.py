@@ -29,7 +29,6 @@ ingredients_list = st.multiselect(
     max_selections = 5
 )
 
-"https://www.fruityvice.com/api/fruit/" + fruit_chosen]
 
 if ingredients_list:
     
