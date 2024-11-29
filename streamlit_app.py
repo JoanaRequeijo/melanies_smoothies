@@ -64,6 +64,7 @@ smoothiefroot_response = requests.get("https://www.smoothiefroot.com/api/fruit/w
 if smoothiefroot_response.status_code == 200:
     # Parse JSON and convert to a DataFrame
     data = smoothiefroot_response.json()
+    st.write(data)
 
 
 
